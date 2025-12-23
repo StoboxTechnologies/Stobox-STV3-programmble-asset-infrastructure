@@ -97,7 +97,8 @@ Provides functionality to register and organize token-related facets into reusab
 - Added `fullPackageInfo()` for comprehensive package metadata retrieval
 - Enhanced blueprint documentation and organization
 
-#### **CreateSTV3Facet** (v1.0.1)
+#### **CreateSTV3Facet** (v1.1.0)
+
 Handles the creation of Security Tokens (STV3) along with their associated treasury contracts. Allows setting creation parameters like token version and initializer contract. Tracks created tokens and exposes metadata for each deployment.
 
 **Token Creation:**
@@ -118,7 +119,8 @@ Handles the creation of Security Tokens (STV3) along with their associated treas
 - Enhanced token creation tracking and metadata management
 - Improved version control for created tokens
 
-#### **SetInfrastructureFacet** (v1.1.0)
+#### **SetInfrastructureFacet** (v1.2.0)
+
 Performs initial infrastructure setup for newly created STV3 tokens. Assigns key operational roles, sets the treasury address, and links validation rules. Ensures tokens are fully initialized and compliant with protocol standards.
 
 **Infrastructure Setup:**
@@ -133,11 +135,13 @@ Performs initial infrastructure setup for newly created STV3 tokens. Assigns key
 
 **Access Control:** Callable only by protocol `master`
 
+
 **Version Changes (v1.0.0 → v1.1.0):**
 - Enhanced setup automation and validation
 - Improved role assignment logic
 
-#### **STV3TokenManagementFacet** (v1.1.0)
+#### **STV3TokenManagementFacet** (v1.3.0)
+
 Provides comprehensive post-deployment management functionality for STV3 security tokens. Enables updating token facets, controlling pause states, managing trust/distrust lists, linking validation rules, and setting issuance limits for deployed tokens.
 
 **Facet Management:**
@@ -186,7 +190,7 @@ The factory uses internal Solidity libraries for code reuse between facets:
 - **LibDiamond** (v1.0.0) - Diamond pattern implementation, storage management, and access control
 - **LibVersion** (v1.0.0) - Semantic versioning support (major, minor, patch)
 - **LibBlueprint** (v1.0.1) - Token facet blueprint management and package organization
-- **LibCreateSTV3** (v1.0.0) - STV3 token creation logic and deployment tracking
+- **LibCreateSTV3** (v1.1.0) - STV3 token creation logic and deployment tracking
 - **LibFactoryRoles** (v1.0.0) - Role-based access control implementation
 
 ### Factory Versioning System:
@@ -231,14 +235,28 @@ This versioning system uses **LibVersion** library with Diamond Storage pattern 
 
 **Deployed Facets (Arbitrum Mainnet):**
 
+
 | Facet | Address | Version |
 |-------|---------|---------|
-| DiamondInit | `0x3d353efc33c380b739f351FC0d65BA9590aeE0d1` | 1.0.0 |
-| DiamondCutFacet | `0x4F09Af316e4053aa2876424BF0C7E08996fd93e1` | 1.0.0 |
-| DiamondLoupeFacet | `0x9051Da5380980FCF7753AEe624Bc5f74Eb2f81BB` | 1.0.0 |
-| TokenBlueprintFacet | `0x5456e10Ccb99B3Ff98dA3238839127ab839ecEf4` | 1.0.0 |
-| CreateSTV3Facet | `0x1809B6422F730eD4ED8C8563C753Cd317639B4B6` | 1.0.0 |
-| SetInfrastructureFacet | `0xFA62406a5ca68f1CaCDCE69ba71b4C5dd2705eD1` | 1.0.0 |
+
+**[StoboxRWAVaultFactory v.1.0.7](https://arbiscan.io/address/0x096d75d0501c3b1479ffe15569192cec998223b4#code) 0x096D75d0501c3B1479FFe15569192CeC998223b4**
+
+**[DiamondInit v.1.0.0](https://arbiscan.io/address/0x3d353efc33c380b739f351FC0d65BA9590aeE0d1#code) 0x3d353efc33c380b739f351FC0d65BA9590aeE0d1**
+
+**[DiamondCutFacet v.1.0.1](https://arbiscan.io/address/0x94A217b601cAfc1eBE7A4DEDdAd0a3b72b8AA5eD#code) 0x94A217b601cAfc1eBE7A4DEDdAd0a3b72b8AA5eD**
+
+**[DiamondLoupeFacet v.1.0.0](https://arbiscan.io/address/0x9051da5380980fcf7753aee624bc5f74eb2f81bb#code) 0x9051Da5380980FCF7753AEe624Bc5f74Eb2f81BB**
+
+**[TokenBlueprintFacet v.1.0.1](https://arbiscan.io/address/0xBBE85938e5C17FA457f8546FDAF8f35f2024D0DF#code) 0xBBE85938e5C17FA457f8546FDAF8f35f2024D0DF**
+
+**[CreateSTV3Facet v.1.1.0](https://arbiscan.io/address/0x6608547a9bb1f28ffbcad8fed9c9acc6e900d826#code) 0x6608547a9bb1f28ffbcad8fed9c9acc6e900d826**
+
+**[SetInfrastructureFacet v.1.2.0](https://arbiscan.io/address/0x5f4f348575aa3d5be91137357562a2b4c8071030#code) 0x5f4f348575aa3d5be91137357562a2b4c8071030**
+
+**[FactoryRolesFacet v.1.0.0](https://arbiscan.io/address/0xA6c669a0Ff236Ba3B7cccd3eA75D007f931F271f#code) 0xA6c669a0Ff236Ba3B7cccd3eA75D007f931F271f**
+
+**[STV3TokenManagementFacet v.1.3.0](https://arbiscan.io/address/0xf1FA8f08d9571b5e489A87f3C7Df42287293c66c#code) 0xf1FA8f08d9571b5e489A87f3C7Df42287293c66c**
+
 
 **Arbitrum Sepolia Testnet:**
 - **Chain ID:** 421614
