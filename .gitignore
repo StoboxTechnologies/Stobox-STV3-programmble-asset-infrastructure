@@ -1,0 +1,6 @@
+# Contracts (documented separately in each contract's README)
+contracts/
+
+# macOS
+.DS_Store
+
