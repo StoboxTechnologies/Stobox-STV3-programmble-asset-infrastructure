@@ -32,15 +32,15 @@ The Stobox RWA infrastructure is built on four interconnected smart contract sys
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    StoboxRWAVaultFactory                    │
-│                   (Creates new tokens)                      │
+│               (Creates New Tokenized Assets)                │
 └─────────────────────────┬───────────────────────────────────┘
-                          │ creates
+                          │ Creates
                           ▼
 ┌─────────────────────────────────────────────────────────────┐
 │                    StoboxProtocolSTV3                       │
-│              (Security Token + Treasury)                    │
+│              (Security/ART Token + Treasury)                │
 └───────────┬─────────────────────────────────┬───────────────┘
-            │ registers offerings             │ validates identity
+            │ Registers Offerings             │ Validates Identity
             ▼                                 ▼
 ┌───────────────────────────┐   ┌─────────────────────────────┐
 │ StoboxRWAOfferingRegistry │   │        StoboxDID            │
