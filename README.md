@@ -23,8 +23,8 @@ The Stobox STV3 Protocol is a comprehensive smart contract infrastructure for is
 ## Quick Links
 
 - [Stobox Documentation](https://docs.stobox.io/)
-- [Stobox Protocol STV3](https://docs.stobox.io/products-and-services/stobox-protocol-stv3)
-- [Stobox DID](https://docs.stobox.io/products-and-services/stobox-did)
+- [Stobox Protocol STV3](https://docs.stobox.io/stv3)
+- [Stobox DID](https://docs.stobox.io/did)
 - [Contact Stobox](https://www.stobox.io/contactus)
 
 ---
