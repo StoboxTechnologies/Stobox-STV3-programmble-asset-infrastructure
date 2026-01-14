@@ -2,9 +2,10 @@
 
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.28-blue.svg)](https://soliditylang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Built with Foundry](https://img.shields.io/badge/Built%20with-Foundry-000000.svg)](https://getfoundry.sh/)
+[![Built with Foundry](https://img.shields.io/badge/Built%20with-Foundry-E6522C.svg)](https://getfoundry.sh/)
 [![ERC-7943](https://img.shields.io/badge/ERC--7943-Compliant-green.svg)](https://eips.ethereum.org/EIPS/eip-7943)
 [![Diamond Standard](https://img.shields.io/badge/EIP--2535-Diamond%20Standard-purple.svg)](https://eips.ethereum.org/EIPS/eip-2535)
+[![Version](https://img.shields.io/badge/Version-1.5.0-brightgreen.svg)](./changelog/v1.5.0.md)
 
 **Programmable Asset Infrastructure for Real-World Asset Tokenization**
 
